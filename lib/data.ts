@@ -1,7 +1,6 @@
-import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import React from "react";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
@@ -35,28 +34,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Amdocs",
+    location: "Pune, India",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I started my career here a junior developer. I immediately started working a on a large scale application in a telecom domain as a junior front-end developer using Angularjs.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Jun 2015 - Jul 2016",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Synechron",
+    location: "India, Pune",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I worked as a front-end developer for 3.8 years. I also upskilled to the full stack. Mainly I worked on React, Redux, Nodejs, Express, MongoDB and AWS.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "Jul 2016 - Feb 2020",
+  },
+  {
+    title: "T-Systems",
+    location: "Pune, India",
+    description:
+      "I'm now working as a senior full-stack developer. My stack includes React, Redux, TypeScript, Material UI, Django and PostgressDB. I'm learning Next.js and exploring AI technologies.",
+    icon: React.createElement(FaReact),
+    date: "Feb 2020 - present",
   },
 ] as const;
 
